@@ -9,11 +9,6 @@ import apLogo from '../../Images/apLogo-cropped.svg'
 
 function NavBar (props) {
 
-    const [navHeight, setNavheight] = useState("10px")
-
-    useEffect(()=>{
-        setNavheight(props.navbarRef.current.clientHeight/2 + "px")
-    }, [props.navbarRef])
 
 
     const defaultStyle = {
@@ -21,6 +16,12 @@ function NavBar (props) {
         backgroundColor: "rgba(35,35,38,0)",
         boxShadow: "none"
     };
+
+    const [navHeight, setNavheight] = useState("10px")
+
+    useEffect(()=>{
+        setNavheight(props.navbarRef.current.clientHeight/2 + "px")
+    }, [props.navbarRef])
 
     const defaultStyleSVG = {
         height: navHeight,

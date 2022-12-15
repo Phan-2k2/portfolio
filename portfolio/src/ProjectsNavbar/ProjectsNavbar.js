@@ -62,7 +62,7 @@ function ProjectsNavbar (props) {
                                     </IconButton>
                                 </NavLink>
                             }
-                            Crazy Koala
+                            Austin Phan
                         </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                             <Button key="home" sx={{ color: '#fff'}} onClick={scroll.scrollToTop}>
