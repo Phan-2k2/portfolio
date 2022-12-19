@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f57e83cc.css",
-    "main.js": "/portfolio/static/js/main.16a9c7cf.js",
+    "main.css": "/portfolio/static/css/main.a6ab5f76.css",
+    "main.js": "/portfolio/static/js/main.1ba249a6.js",
     "static/media/user_testing_3.mp4": "/portfolio/static/media/user_testing_3.9293a7230ca7e5bf3a17.mp4",
     "static/media/user_testing_1.mp4": "/portfolio/static/media/user_testing_1.cc215d725ebd9700f55f.mp4",
     "static/media/user_testing_2.mp4": "/portfolio/static/media/user_testing_2.f16933299bf3e82bc115.mp4",
     "static/media/high_fidelity_walkthrough.mov": "/portfolio/static/media/high_fidelity_walkthrough.42bcf2047c3f3a6e0dc3.mov",
+    "static/media/ADP06474.jpg": "/portfolio/static/media/ADP06474.2968be27173c427986c2.jpg",
     "static/media/mainpage.png": "/portfolio/static/media/mainpage.578ac06a0995b0df0a0a.png",
     "static/media/updated-site.jpeg": "/portfolio/static/media/updated-site.1efb0fe79f8585188dfa.jpeg",
     "static/media/consolidatedTabletHifi.jpg": "/portfolio/static/media/consolidatedTabletHifi.65131af30c5e19529818.jpg",
@@ -40,11 +41,11 @@
     "static/media/iterative2-blurred.jpg": "/portfolio/static/media/iterative2-blurred.168e81665a38099fd430.jpg",
     "static/media/apLogo-cropped.svg": "/portfolio/static/media/apLogo-cropped.7a24efef59a7e44af8fa5a16d4e0a42d.svg",
     "index.html": "/portfolio/index.html",
-    "main.f57e83cc.css.map": "/portfolio/static/css/main.f57e83cc.css.map",
-    "main.16a9c7cf.js.map": "/portfolio/static/js/main.16a9c7cf.js.map"
+    "main.a6ab5f76.css.map": "/portfolio/static/css/main.a6ab5f76.css.map",
+    "main.1ba249a6.js.map": "/portfolio/static/js/main.1ba249a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f57e83cc.css",
-    "static/js/main.16a9c7cf.js"
+    "static/css/main.a6ab5f76.css",
+    "static/js/main.1ba249a6.js"
   ]
 }
