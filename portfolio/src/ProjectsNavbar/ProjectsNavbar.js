@@ -1,14 +1,25 @@
 import AppBar from '@mui/material/AppBar';
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {Box, Button, Drawer, IconButton, Toolbar, Typography} from "@mui/material";
 import { Icon } from '@iconify/react';
 import '../Navbar.css'
 import {animateScroll as scroll} from 'react-scroll'
 import {NavLink} from "react-router-dom";
 import {Transition} from "react-transition-group";
+import apLogo from '../Images/apLogo-cropped.svg'
 
 
 function ProjectsNavbar (props) {
+
+    const [navHeight, setNavheight] = useState("10px")
+
+    useEffect(()=>{
+        setNavheight(props.navbarRef.current.clientHeight/2 + "px")
+    }, [props.navbarRef])
+
+    const defaultStyleSVG = {
+        height: navHeight,
+    };
 
     const defaultStyle = {
         transition: `background-color 300ms ease-in-out`,
@@ -58,11 +69,10 @@ function ProjectsNavbar (props) {
                             {
                                 <NavLink to={"/portfolio"} style={{textDecoration: 'none'}}>
                                     <IconButton sx={{padding:0}}>
-                                        <Icon icon="icon-park-outline:koala-bear" color="white" height={40}/>
+                                        <img className="svgLogo" src={apLogo} alt={"hello!"} style={defaultStyleSVG}/>
                                     </IconButton>
                                 </NavLink>
                             }
-                            Austin Phan
                         </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                             <Button key="home" sx={{ color: '#fff'}} onClick={scroll.scrollToTop}>

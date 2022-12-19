@@ -9,8 +9,6 @@ import apLogo from '../../Images/apLogo-cropped.svg'
 
 function NavBar (props) {
 
-
-
     const defaultStyle = {
         transition: `background-color 300ms ease-in-out`,
         backgroundColor: "rgba(35,35,38,0)",

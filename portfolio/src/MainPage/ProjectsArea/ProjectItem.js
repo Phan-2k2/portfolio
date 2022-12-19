@@ -1,5 +1,5 @@
 import './ProjectsArea.css'
-import {Button, Card, CardActions, CardContent, CardMedia, Typography} from "@mui/material";
+import {Card, CardContent, CardMedia, Typography} from "@mui/material";
 import {NavLink} from "react-router-dom";
 import {useState} from "react";
 function ProjectItem (props) {
@@ -32,9 +32,6 @@ function ProjectItem (props) {
                         {props.description}
                     </Typography>
                 </CardContent>
-                <CardActions>
-                        <Button size="medium" sx={{ color: '#fff', background: "#1565c0", '&:hover' :  {background: "#fff", color: "#000"}}}>Read More</Button>
-                </CardActions>
             </Card>
             </NavLink>
         </div>

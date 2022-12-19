@@ -8,10 +8,12 @@ function PersonasStoryboarding () {
 
     const titleRef = useRef();
     const isVisibleTitle = useIsVisible(titleRef);
+    const navRef = useRef();
+
     return (
 
         <div id="contentArea">
-            <ProjectsNavbar isVisibleTitle={isVisibleTitle}/>
+            <ProjectsNavbar isVisibleTitle={isVisibleTitle} navbarRef={navRef}/>
             <TitleArea titleRef={titleRef} isVisibleTitle={isVisibleTitle}/>
             <ContentArea/>
         </div>
