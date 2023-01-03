@@ -14,7 +14,9 @@ function AboutArea (props) {
                     </Typography>
                     <div id="aboutInfo">
                         <Typography variant="subtitle1" sx={{maxWidth:{xs : "100%", sm : "50%"}}} id="aboutWords">
-                            Hey! I'm Austin Phan. I'm from the great state of New Hampshire, and currently
+                            Hey! I'm Austin Phan. Welcome to my portfolio! This portfolio project was created for one of
+                            my classes, CS1300 (User Interfaces and User Experiences), as a way to show the work completed for that class.
+                            I'm from the great state of New Hampshire, and currently
                             go to Brown University. I'm currently concentrating in Computer Science. I enjoy programming,
                             with frontend design being one of my favorites. But, when I'm not programming you can find
                             me playing video games or practicing Taekwondo.
